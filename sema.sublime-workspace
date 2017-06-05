@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"item",
+				"itemObj"
+			],
+			[
+				"it",
+				"itemObj"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "semaphore.c",
+			"settings":
+			{
+				"buffer_size": 18709,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n#define  SEMA_SENDER       1 \n#define  SEM_ART_EMPFAENGER   2\n\n\nint sema_function (int argc, char * const argv[],int art);\n\n\n\n\n",
+			"file": "semaphore.h",
+			"file_size": 131,
+			"file_write_time": 131411317460000000,
+			"settings":
+			{
+				"buffer_size": 128,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n#include \"semaphore.h\" \n\n\nint main(int argc, char * const argv[])\n{\nreturn sema_function (argc, argv, SEM_ART_EMPFAENGER);\n}\n\n\n\n",
+			"file": "empfaenger.c",
+			"file_size": 127,
+			"file_write_time": 131411316960000000,
+			"settings":
+			{
+				"buffer_size": 129,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sender.c",
+			"settings":
+			{
+				"buffer_size": 123,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp11__/semallg.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp13/sender.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp11/sender.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp10/sender.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp9/sender.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp8/sender.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp5/sender.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp4/sender.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp3/sender.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp2/sender.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe3 - myipc/bsp3_grp1/sender.c",
+		"/Users/johannahoffmann/Desktop/bsp2_grp16/mypopen.c",
+		"/Users/johannahoffmann/Desktop/bsp2_grp3/mypopen.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe2 - mypopen/bsp2_grp2_ci_grp3/mypopen.h",
+		"/Users/johannahoffmann/Desktop/bsp2_grp16/mypopen.h",
+		"/Users/johannahoffmann/Desktop/2.Sem/BIC2/BES - Betriebssysteme/2016/Aufgabe2 - mypopen/bsp2_grp2_ci_grp3/mypopen.c",
+		"/Users/johannahoffmann/Desktop/2.Sem/OS/android_popen.c",
+		"/Users/johannahoffmann/Documents/lemon/vue_bsp_2/app.js",
+		"/Users/johannahoffmann/Documents/lemon/vue_bsp_2/index.html",
+		"/Users/johannahoffmann/Documents/lemon/vue_1bsp/include/app.js",
+		"/Users/johannahoffmann/Documents/lemon/vue_1bsp/index.html",
+		"/Users/johannahoffmann/lemon/vue_1bsp/index.html",
+		"/Users/johannahoffmann/lemon/vue_1bsp/include/app.js",
+		"/Users/johannahoffmann/lemon/vue_1bsp/include/index.html",
+		"/Users/johannahoffmann/lemon/vue/index.html",
+		"/Users/johannahoffmann/lemon/vue/include/app.js",
+		"/Users/johannahoffmann/lemon/vue_1bsp/vue.js",
+		"/Users/johannahoffmann/lemon/vue_1bsp/include/vue.js",
+		"/Users/johannahoffmann/lemon/vue_1bsp/app.js",
+		"/Users/johannahoffmann/lemon/vue/app.js",
+		"/Users/johannahoffmann/lemon/vue/vue.js",
+		"/Users/johannahoffmann/lemon/vue/include/vue.js",
+		"/Users/johannahoffmann/lemon/akl/public/js/sample.js",
+		"/Users/johannahoffmann/lemon/akl/views/index.html",
+		"/Users/johannahoffmann/lemon/akl/package.json",
+		"/Users/johannahoffmann/lemon/akl/views/error.html",
+		"/Users/johannahoffmann/lemon/akl/routes/clients.js",
+		"/Users/johannahoffmann/lemon/akl/public/js/jsonedit.js",
+		"/Users/johannahoffmann/lemon/akl/db/mysqlhandler.js",
+		"/Users/johannahoffmann/lemon/akl/app.js",
+		"/Users/johannahoffmann/lemon/akl/routes/index.js",
+		"/Users/johannahoffmann/lemon/akl/views/user.html",
+		"/Users/johannahoffmann/lemon/akl/views/roles.html",
+		"/Users/johannahoffmann/lemon/akl/views/index_bak_spa.html",
+		"/Users/johannahoffmann/Desktop/colresizable/samples/colResizable.Demo/demo.html",
+		"/Users/johannahoffmann/lemon/akl/bin/www",
+		"/Users/johannahoffmann/lemon/akl/routes/clients_old.js",
+		"/Users/johannahoffmann/Desktop/nodejsrestapi-master/dbconnection.js",
+		"/Users/johannahoffmann/Desktop/nodejsrestapi-master/package.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sh_path",
+			";\n",
+			"});",
+			"new Vue ({\n  el: '#app',\n  data: {\n    title: 'hudriwudri',\n    link: 'http://google.com'\n\n  },\n  methods: {\n     sayHello: function() {\n     \treturn this.title;\n     }\n    }\n  }\n});",
+			"!';\n",
+			"user",
+			"resiz",
+			"sample"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "semaphore.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								974,
+								974
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "semaphore.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								10
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "empfaenger.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sender.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sema.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
